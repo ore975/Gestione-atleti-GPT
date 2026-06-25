@@ -175,7 +175,7 @@ elif menu == 'Cartella clinica':
                            VALUES(?,?,?,?,?,?,?,?,?,?,?)''',
                         (atleta_id,str(data_visita),anamnesi_remota,anamnesi_prossima,allergie,esame_obiettivo,diagnosi,trattamento,richieste_esami,prognosi,note))
                 st.success('Cartella clinica salvata.')
-                st.rerun()import sqlite3
+               st.rerun()
 from datetime import date
 from pathlib import Path
 
